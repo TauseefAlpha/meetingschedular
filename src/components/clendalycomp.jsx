@@ -5,10 +5,10 @@ const Clendalycomp = (props) => {
  const[isOpen,setIsOpen] =useState(false)
   return (
     <div><button
-    style={{ display: "block", margin: "0 auto",backgroundColor:'ActiveBorder' }}
+    style={{ display: "block", margin: "0 auto",backgroundColor:'ButtonShadow', color:'green' }}
     onClick={() =>setIsOpen(true)}
   >
-  Schedule meeting
+  Click Me Schedule meeting
   </button>
   <PopupModal
           url="https://calendly.com/ahmedtausef98/project-synccloud-discussion"
